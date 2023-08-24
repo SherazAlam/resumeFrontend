@@ -1,0 +1,122 @@
+.colorSelections {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.outlineDiv {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.resumeContainer {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    padding: 5px;
+}
+
+.name {
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.role {
+    margin-top: 5px;
+    font-weight: 500;
+    /* color: cadetblue; */
+    text-align: center;
+}
+
+.basicDetails {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid grey; */
+}
+
+.basicDetail {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.summaryTitle {
+    text-align: left;
+    margin-top: 7px;
+    margin-bottom: 2px;
+}
+
+.summaryParagraph {
+    text-align: left;
+}
+
+.educationTitle {
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.educations {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.education {
+    border: 1px solid cadetblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.universityName {
+    font-size: 14px;
+    color: cadetblue;
+    font-weight: 700;
+}
+
+.passingYear {
+    font-size: 12px;
+}
+
+.experienceTitle {
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.experiences {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.experience {
+    border: 1px solid cadetblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.skillTitle {
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.languageTitle {
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
